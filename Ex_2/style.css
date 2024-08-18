@@ -13,7 +13,8 @@ body {
   form {
     border: 2px solid #ccc;
     background-color: #fff;
-    width: 400px;
+    width: 600px;
+    height: 500px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -43,8 +44,23 @@ body {
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    position: absolute;
   }
   
   button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  button[type="button"] {
+    background-color: #2432b3;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type="button"]:hover {
     background-color: #45a049;
   }
